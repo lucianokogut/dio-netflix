@@ -19,10 +19,10 @@
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="https://www.netflix.com/br/browse/genre/839338" target="_blank">Início</a>
+                <a href="https://www.youtube.com/watch?v=igsPME8oEO0" target="_blank">Séries</a>
+                <a href="https://www.youtube.com/watch?v=aAVZaK9LOJw&list=PLalmCWWs26ErGwO7l2bwmlrzLiqP6hC2t" target="_blank">Filmes</a>
+                <a href="#" target="_blank">Documentários</a>
             </nav>
         </div>
     </header>
@@ -39,13 +39,13 @@
                     Aproveite para rever a carreira marcante deste personagem inesquecível!
                 </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button type="button" role="button" class="botao" onclick="Assistir()">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        <a href="https://www.youtube.com/watch?v=OUizTUHyLvk" style="text-decoration:none" target="_blank">ASSISTIR AGORA</a>
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <a href="https://pt.wikipedia.org/wiki/Rocky_(s%C3%A9rie)" style="text-decoration:none" target="_blank">MAIS INFORMAÇÕES</a>
                     </button>
                 </div>
             </div>
@@ -101,6 +101,12 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+
+    <script>
+        function Assistir(){
+            alert('Assistir o trailer do filme agora...')
+     }
+    </script>
 
 </body>
 </html>
