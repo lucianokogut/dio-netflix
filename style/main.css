@@ -9,10 +9,12 @@
     box-sizing: border-box;
 }
 
+/* elementos base */
+
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: 'Verdana', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -37,4 +39,67 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(50, 35, 35, 0.5)100%) , url(/img/Rocky-Balboa-Capa.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 85%;
+    margin-left: 20px;
+}
+
+.filme-principal .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .detalhe{
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }

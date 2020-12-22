@@ -1,0 +1,63 @@
+@media screen and (max-width:570px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 8px;
+        width: 270px;
+    }
+
+    .filme-principal{
+        background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(50, 35, 35, 0.5)100%) , url(/img/Rocky-Balboa-Capa-50.jpg);
+        height: 400px;
+    }
+
+    .filme-principal .container{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .filme-principal .titulo{
+        margin-top: 5%;
+    }
+
+    .filme-principal .descricao{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .filme-principal .detalhe{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .filme-principal{
+        background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(50, 35, 35, 0.5)100%) , url(/img/Rocky-Balboa-Capa-70.jpg);
+        height: 500px;
+    }
+
+    .filme-principal .titulo{
+        margin-top: 10%;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width:440px){
+
+    .filme-principal{
+        font-size: 14px;
+        background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(50, 35, 35, 0.5)100%) , url(/img/Rocky-Balboa-Capa-50.jpg);
+        height: 470px;
+    }   
+
+    .filme-principal .titulo{
+        margin-top: 5%;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+}
